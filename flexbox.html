@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>flexbox</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: 0;
+            }
+
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .flex{
+                width: 50%;
+                flex-wrap: wrap;
+                height: 200px;
+                background-color: brown;
+                border: 1px salmon;
+                justify-content: center;
+                align-items: end;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="flex">flexbox</div>
+            <div class="flex">flexbox</div>
+            <div class="flex">flexbox</div>
+    </body>
+</html>
